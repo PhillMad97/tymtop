@@ -1,0 +1,23 @@
+{
+  "name": "tymtop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "y",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhillMad97/tymtop.git"
+  },
+  "author": "PhillMad97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhillMad97/tymtop/issues"
+  },
+  "homepage": "https://github.com/PhillMad97/tymtop#readme"
+}
