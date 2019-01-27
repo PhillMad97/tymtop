@@ -1,8 +1,11 @@
-var http = require("http");
-var server = http.createServer(function(req, res) {
-  res.writeHead(200,{'Content-type':'text/html'});
-  res.end("<h1>Hello World</h1>");
-
+var express = require('express');
+var app = express();
+app.set('view engine','ejs');
+//Initialization server node js
+app.get('/', function(req, res) {
+  res.send('Thi is home');
 });
-
-server.listen(3000);
+app.get('/user/:id', function(req, res) {
+  res.send('Thi is home'+ req.params.id);
+});
+app.listen(3000);
